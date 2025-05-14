@@ -44,10 +44,10 @@ void SplineNode::publishSpline() {
     }*/
 
     // Log the start and end points
-    if (!spline_points.empty()) {
-      RCLCPP_INFO(this->get_logger(), "Start Point: (%.2f, %.2f)", spline_points.front().x, spline_points.front().y);
-      RCLCPP_INFO(this->get_logger(), "End Point:   (%.2f, %.2f)", spline_points.back().x, spline_points.back().y);
-    }
+    // if (!spline_points.empty()) {
+    //   RCLCPP_INFO(this->get_logger(), "Start Point: (%.2f, %.2f)", spline_points.front().x, spline_points.front().y);
+    //   RCLCPP_INFO(this->get_logger(), "End Point:   (%.2f, %.2f)", spline_points.back().x, spline_points.back().y);
+    // }
   
 }
 
